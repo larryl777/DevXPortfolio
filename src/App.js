@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { Routes, Route, Link, Navigate } from "react-router-dom"
+import Landing from './pages/Landing';
+import Projects from './pages/Projects';
+import Experience from './pages/Experience';
+import Contact from './pages/Contact';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          WOAH!!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+        <Link to="/landing">Home</Link> | <Link to="/projects">Projects</Link> | <Link to="/experience">Experience</Link> | <Link to="/contact">Contact Me</Link> 
+      </nav>
+      <Routes> 
+        <Route path="/" element={<Navigate replace to="/landing"/>}> </Route>    {/*Set /landing to default page */}
+        <Route path="/landing" element = {<Landing/>}> </Route>
+        <Route path="/projects" element = {<Projects/>}> </Route>
+        <Route path="/experience" element = {<Experience/>}> </Route>
+        <Route path="/contact" element = {<Contact/>}> </Route>
+      </Routes>
     </div>
   );
 }
