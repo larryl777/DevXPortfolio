@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <div className="App">
+      <div className = "navBar">
       <nav>
         <Link to="/landing">Home</Link> | <Link to="/projects">Projects</Link> | <Link to="/experience">Experience</Link> | <Link to="/contact">Contact Me</Link> 
       </nav>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/experience" element = {<Experience/>}> </Route>
         <Route path="/contact" element = {<Contact/>}> </Route>
       </Routes>
+      </div>
     </div>
   );
 }
