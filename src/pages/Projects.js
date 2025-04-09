@@ -1,4 +1,6 @@
 import './Projects.css'
+import { Link } from "react-router-dom"
+
 const Projects = () => {
     return(
         <div>
@@ -8,10 +10,14 @@ const Projects = () => {
                 </h1>
             </div>
             
-            {/* still need to add navigation links to github  */}
             <div className = "text2">
                 <h2>
-                    Bruins Meet Bruins  
+                    Bruins Meet Bruins 
+                    <div className = "githublink">                         
+                        <nav>
+                        <Link to="https://github.com/MarcT03/bruins-meet-bruins">Github</Link>
+                        </nav>   
+                    </div>
                 </h2>
                 <h3>
                 Full stack web application developed using the MERN stack, 
@@ -23,6 +29,11 @@ const Projects = () => {
             <div className = "text2">
                 <h2>
                     Discord Bot
+                    <div className = "githublink"> 
+                        <nav>
+                        <Link to="https://github.com/larryl777/LarryBot">Github</Link>
+                        </nav>   
+                    </div>
                 </h2>
                 <h3>
                 Personal interactive discord bot using Node.js and Discord REST API, 
@@ -34,6 +45,11 @@ const Projects = () => {
             <div className = "text2">
                 <h2>
                     Bruin Nav 
+                    <div className = "githublink"> 
+                        <nav>
+                        <Link to="https://github.com/larryl777/Bruin-Nav">Github</Link>
+                        </nav>  
+                    </div>
                 </h2>
                 <h3>
                 C++ optimal route finder/navigator between data 
