@@ -12,8 +12,35 @@ const Contact  = () => {
 
             <div className = "text2">
             <h2>
-                Info
+                Your name:  
             </h2>
+            <input
+            type="text"
+            id="name"
+            name="name"
+            required/>
+            </div>
+
+            <div className = "text2">
+            <h2>
+                Your email:  
+            </h2>
+            <input
+            type="text"
+            id="email"
+            name="email"
+            required/>
+            </div>
+
+            <div className = "text2">
+            <h2>
+                Message:  
+            </h2>
+            <input
+            type="text"
+            id="message"
+            name="message"
+            required/>
             </div>
         
         <div className="contactOptions">
