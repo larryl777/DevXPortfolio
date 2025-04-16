@@ -1,3 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+
 body{
     background-color: #201f1f;
+}
+.experiencetext1{
+    color: white;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: .4rem;
+    background-color: rgb(139, 139, 139);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    height: 48rem;
+    border-radius: .5rem;
+  }
+
+.container {
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
+
+  }
+
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #266730;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+.left {
+    left: 0;
+  }
+  
+.right {
+    left: 50%;
+  }
+  
+.right::after {
+    left: -16px;
+}
+  
+.content {
+    padding: 20px 30px;
+    background-color: rgb(197, 197, 197);
+    position: relative;
+    border-radius: 6px;
+}
+
+
+.companytitle{
+    font-size: .8rem;
+    font-style: italic;
 }

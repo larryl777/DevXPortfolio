@@ -1,16 +1,15 @@
 import './Contact.css'
-import { Link } from "react-router-dom"
 
 const Contact  = () => {
     return(
         <div>
-            <div className = "text1">
+            <div className = "contacttext1">
             <h1>
                 Get in touch with me! 
             </h1>
             </div>
 
-            <div className = "text2">
+            <div className = "contacttext2">
             <h2>
                 Your name:  
             </h2>
@@ -21,7 +20,7 @@ const Contact  = () => {
             required/>
             </div>
 
-            <div className = "text2">
+            <div className = "contacttext2">
             <h2>
                 Your email:  
             </h2>
@@ -32,7 +31,7 @@ const Contact  = () => {
             required/>
             </div>
 
-            <div className = "text2">
+            <div className = "contacttext2">
             <h2>
                 Message:  
             </h2>
@@ -40,17 +39,26 @@ const Contact  = () => {
             type="text"
             id="message"
             name="message"
+            className = "inputbox"
             required/>
             </div>
         
-        <div className="contactOptions">
-            <nav>
-                <Link to="https://github.com/larryl777">Github</Link> | <Link to="https://www.linkedin.com/in/larrylim27/">LinkedIn</Link>
-            </nav>
-        </div>
+        <div className = "contacttext3">
+            <h1> Check out some of my other socials! </h1>
+            </div>
+        <div className="contact-center">
+        <ul className="nav-links">     
+        <li>
+            <a className="contactbutton1" href="https://github.com/larryl777">GitHub</a>
+        </li>
+       
+        <li>
+            <a className="contactbutton1" href="https://www.linkedin.com/in/larrylim27/">LinkedIn</a>
+        </li>
 
-            
-        </div>
+        </ul>
+        </div> 
+    </div>
     )
 }
 

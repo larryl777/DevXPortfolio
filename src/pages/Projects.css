@@ -5,3 +5,11 @@ body{
 .githublink {
     font-size: 13px;
 }
+
+.projectstext1{
+    color: white;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}

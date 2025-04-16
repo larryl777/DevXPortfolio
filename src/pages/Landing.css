@@ -3,9 +3,26 @@ body{
 }
 
 .text1{
-    color: white
+    color: white;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 2rem;
 }
 
 .text2{
-    color: white
+    color: white;
+    word-wrap: break-word;
+    max-width: 1200px;
+    margin: 0 auto;
+    top: 5rem;
+    
+}
+
+.text3{
+    color: white; 
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    top: 10rem;
 }

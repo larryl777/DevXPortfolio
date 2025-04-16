@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 const Projects = () => {
     return(
         <div>
-            <div className = "text1">
+            <div className = "projectstext1">
                 <h1>
                  Here are Some of My Recent  Projects! 
                 </h1>
