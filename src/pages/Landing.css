@@ -5,12 +5,25 @@
     overflow-x: hidden;
   }
 
-.text1{
-    color: white;
+  .text1 {
     max-width: 1200px;
     margin: 0 auto;
-    font-size: 2rem;
-}
+    font-size: 3rem;
+    color: transparent;
+    background-image: linear-gradient(#2b23c1, #726a97);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    animation: textanimation 5s linear infinite alternate;
+    background-position: -1500px 0;
+    background-size: 1000px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+
+  @keyframes textanimation {
+    100% {
+      background-position: 0 0;
+    }
+  }
 
 .text2{
     color: white;
