@@ -81,21 +81,8 @@ body, html{
     margin-bottom: 0.5rem;
 }
 
-@media (max-width: 768px) {
-    .logos {
-      padding: 15px 0;
-    }
-    
-    .logo-description {
-      margin: 0 20px;
-    }
-    
-    .logo-description img {
-      height: 50px;
-    }
-  }
 
-  .home-container{
+.home-container{
     width: 100%;
     min-height: 100vh;
     
