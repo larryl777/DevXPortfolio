@@ -8,17 +8,19 @@ import Experience from './pages/Experience';
 import Contact from './pages/Contact';
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Routes> 
-        <Route path="/" element={<Navigate replace to="/landing"/>}> </Route>    {/*Set /landing to default page */}
-        <Route path="/landing" element = {<Landing/>}> </Route>
-        <Route path="/projects" element = {<Projects/>}> </Route>
-        <Route path="/experience" element = {<Experience/>}> </Route>
-        <Route path="/contact" element = {<Contact/>}> </Route>
-      </Routes>
-      
-    </div>
+    <>
+      <div className="background-animation">
+        <NavBar />
+        <Routes> 
+          <Route path="/" element={<Navigate replace to="/landing" />} />
+          <Route path="/landing" element={<Landing />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        </div> 
+    </>
+
   );
 }
 

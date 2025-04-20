@@ -1,4 +1,21 @@
 import './Landing.css'
+import cplusLogo from './logos/c++.png'; 
+import cssLogo from './logos/css.png'; 
+import htmlLogo from './logos/html.png'; 
+import javaLogo from './logos/java.svg'; 
+import javascriptLogo from './logos/javascript.svg'; 
+import pythonLogo from './logos/python.svg'; 
+import reactLogo from './logos/react.png'; 
+import gitLogo from './logos/git.png'; 
+import expressLogo from './logos/express.png'; 
+import mongoLogo from './logos/mongodb.svg'; 
+import nodeLogo from './logos/node.png'; 
+
+
+
+
+
+
 const Landing = () => {
     return(
         <div>
@@ -20,11 +37,102 @@ const Landing = () => {
 
             <div className="text3">
                 <h2>
-                Technical Stack Experience: 
+                My Technical Stack: 
                 </h2>
-                <p>
-                 *
-                </p>
+                <div className = "logos">
+                    <div className = "logo-slide">
+                        <div className = "logo-description">
+                            <img src={cplusLogo} alt="C++ Logo" />
+                            <span>C++</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={cssLogo} alt="CSS Logo" />
+                            <span>CSS</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={htmlLogo} alt="HTML Logo" />
+                            <span>HTML</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={javaLogo} alt="Java Logo" />
+                            <span>Java</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={javascriptLogo} alt="JavaScript Logo" />
+                            <span>JavaScript</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={pythonLogo} alt="Python Logo" />
+                            <span>Python</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={reactLogo} alt="React Logo" />
+                            <span>React</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={gitLogo} alt="Git Logo" />
+                            <span>Git</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={expressLogo} alt="Express Logo" />
+                            <span>Express</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={mongoLogo} alt="MongoDB Logo" />
+                            <span>MongoDB</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={nodeLogo} alt="Nodejs Logo" />
+                            <span>Nodejs</span>
+                        </div>
+                    </div>
+                    <div className = "logo-slide">
+                        <div className = "logo-description">
+                            <img src={cplusLogo} alt="C++ Logo" />
+                            <span>C++</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={cssLogo} alt="CSS Logo" />
+                            <span>CSS</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={htmlLogo} alt="HTML Logo" />
+                            <span>HTML</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={javaLogo} alt="Java Logo" />
+                            <span>Java</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={javascriptLogo} alt="JavaScript Logo" />
+                            <span>JavaScript</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={pythonLogo} alt="Python Logo" />
+                            <span>Python</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={reactLogo} alt="React Logo" />
+                            <span>React</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={gitLogo} alt="Git Logo" />
+                            <span>Git</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={expressLogo} alt="Express Logo" />
+                            <span>Express</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={mongoLogo} alt="MongoDB Logo" />
+                            <span>MongoDB</span>
+                        </div>
+                        <div className = "logo-description">
+                            <img src={nodeLogo} alt="Nodejs Logo" />
+                            <span>Nodejs</span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>

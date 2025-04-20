@@ -1,6 +1,4 @@
-body{
-    background-color: #201f1f;
-}
+
 
 .text1{
     color: white;
@@ -24,5 +22,52 @@ body{
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    top: 10rem;
+    top: 6rem;
+}
+
+.logos{
+    overflow: hidden; 
+    padding: 30px 0;
+    white-space: nowrap;
+    position: relative;
+}
+
+
+.logo-slide {
+    display: inline-block;
+    animation: 30s slide infinite linear;
+}
+
+.logo-slide img {
+    height: 60px;
+    margin: 0 40px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.logos:hover .logo-track {
+    animation-play-state: paused;
+}
+
+.logo-description{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 40px;
+    color: white;
+    font-size: 0.9rem;
+    text-align:center
+}
+
+.logo-description img{
+    height: 60px;
+    margin-bottom: 0.5rem;
 }
