@@ -11,14 +11,9 @@ import expressLogo from './logos/express.png';
 import mongoLogo from './logos/mongodb.svg'; 
 import nodeLogo from './logos/node.png'; 
 
-
-
-
-
-
 const Landing = () => {
     return(
-        <div>
+        <div className = "home-container">
             <div className = "text1">
                 <h1>
                     Larry Lim
