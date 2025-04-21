@@ -9,6 +9,7 @@
     max-width: 1200px;
     margin: 0 auto;
     font-size: 1.3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -27,7 +28,7 @@
     bottom: 0;
     left: 50%;
     margin-left: -3px;
-    height: 48rem;
+    height: 46rem;
     border-radius: .5rem;
   }
 
@@ -68,10 +69,64 @@
     background-color: rgb(197, 197, 197);
     position: relative;
     border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
 .companytitle{
     font-size: .8rem;
     font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+.timeline::after {
+    left: 20px; 
+}
+
+.container {
+    width: 100%;
+    padding-left: 50px; 
+    padding-right: 20px;
+}
+
+.container::after {
+    left: 10px;
+    right: auto;
+}
+
+.left, .right {
+    left: 0; 
+}
+
+.right::after {
+    left: 10px; 
+}
+
+}
+
+.tech-icons {
+  position: absolute;
+  left: 29rem;
+  top: 20%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tech-icon {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(4, 2, 92);
+  padding: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tech-icon2 {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 249, 249);
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }

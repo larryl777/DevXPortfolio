@@ -1,4 +1,7 @@
 import './Experience.css'
+import devxLogo from './logos/devx.jpeg'; 
+import wkupLogo from './logos/workup.png'; 
+
 
 const Experience = () => {
     return(
@@ -9,7 +12,7 @@ const Experience = () => {
             </h1>
         </div>
         <div className = "left container">
-                <div className = "content">
+            <div className = "content">
                 <h2>
                 Developer Intern  
                 </h2>
@@ -23,6 +26,9 @@ const Experience = () => {
                 <br></br>
                 •Planning on integrating a backend contact form using Express.js and Nodemailer, enabling real-time email communication for visitor messages.
                 </p>
+            </div>
+            <div className="tech-icons">
+                <img src={devxLogo} alt="React" className="tech-icon" />
             </div>
         </div>
         <div className = "right container">
@@ -43,6 +49,9 @@ const Experience = () => {
                     • Documented the codebase to support bug fixing, leveraging Git to streamline version control and collaboration
                 </p>
                 </div>
+                <div className="tech-icons">
+                <img src={wkupLogo} alt="React" className="tech-icon2" />
+            </div>
         </div>
 
     </div>

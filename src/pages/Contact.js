@@ -9,38 +9,44 @@ const Contact  = () => {
             </h1>
             </div>
 
+            <div className = "text-header">
+                <p>
+                    Have questions or just want to say hi? Feel free to leave a message 
+                    and I will try my best to get back to you as soon as possible!
+                </p>
+            </div>
             <div className = "contacttext2">
-            <h2>
-                Your name:  
-            </h2>
-            <input
-            type="text"
+            <textarea
+            placeholder="Name"
             id="name"
             name="name"
+            className="inputbox"
             required/>
             </div>
 
             <div className = "contacttext2">
-            <h2>
-                Your email:  
-            </h2>
-            <input
-            type="text"
-            id="email"
-            name="email"
+            <textarea
+            placeholder="Email"
+            id="Email"
+            name="Email"
+            className="inputbox"
             required/>
             </div>
 
             <div className = "contacttext2">
-            <h2>
-                Message:  
-            </h2>
-            <input
-            type="text"
+            <textarea
+            placeholder="Your Message"
             id="message"
             name="message"
-            className = "inputbox"
+            className="inputbox2"
             required/>
+            
+            <br></br>
+            <br></br>
+             <button type="button" className="customButton" onClick={() => alert("Message Sent!")}>
+                Send
+            </button>
+
             </div>
         
         <div className = "contacttext3">

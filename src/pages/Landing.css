@@ -13,6 +13,7 @@
     background-image: linear-gradient(#2b23c1, #726a97);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
+    background-clip: text;
     animation: textanimation 5s linear infinite alternate;
     background-position: -1500px 0;
     background-size: 1000px;
@@ -30,6 +31,7 @@
     word-wrap: break-word;
     max-width: 1200px;
     margin: 3rem auto;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 .text3{
@@ -37,6 +39,7 @@
     position: relative;
     max-width: 1200px;
     margin: 3rem auto 5rem auto;
+    font-family: 'Times New Roman', Times, serif;
    
 }
 

@@ -21,8 +21,8 @@ const Landing = () => {
             </div>
             <div className="text2">
                 <h2>
-                Hello, I'm Larry, a second year undergraduate student studying Linguistics and Computer Science at UCLA.
-                I'm passionate about software engineering, with experience in backend and web development, hoping to develop
+                Hello, I'm Larry, a second year undergraduate student studying Linguistics and Computer Science at UCLA. 
+                I have interests in Software Engineering, Web Development, and also Full-Stack Development. With experience in backend and web development, I hope to develop
                 technology to help and improve the lives of those around me. 
                 <br></br>
                 <br></br>
