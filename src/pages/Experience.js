@@ -20,11 +20,12 @@ const Experience = () => {
                     UCLA DevX, February 2025 - Present
                 </div>
                 <p>
-                • Developing an interactive portfolio website with 4+ sections using JavaScript, HTML/CSS, and React.js, implementing modular, reusable components and dynamic routing.
+                • Developing an interactive portfolio website with 4+ sections using JavaScript, HTML/CSS, and React.js,
+                implementing modular, reusable components and dynamic routing.
                 <br></br>
-                • Deployed and optimized performance with Vercel, reducing load times through code splitting and minification
+                • Utilized Vercel for CI/CD deployment, optimizing performance through code splitting and minification
                 <br></br>
-                •Planning on integrating a backend contact form using Express.js and Nodemailer, enabling real-time email communication for visitor messages.
+                •Integrating a backend contact system using Express.js and Nodemailer to enable real-time visitor messaging
                 </p>
             </div>
             <div className="tech-icons">
@@ -40,11 +41,13 @@ const Experience = () => {
                     Workup, October 2024 - January 2025
                 </div>
                 <p>
-                    • Performed comprehensive testing of 3+ web and mobile application features weekly, identifying 30+ bugs to ensure timely resolutions for feature improvements and code optimizations
+                    • Performed comprehensive testing of 3+ web and mobile application features weekly, identifying 30+ bugs to ensure
+                    timely resolutions for feature improvements and code optimizations
                 <br></br>
-                    • Resolved 40% of identified issues, debugging React-based UI inconsistencies and backend API routing issues, enhancing application performance and functionality
+                    • Resolved 40% of identified issues, debugging React-based UI inconsistencies and backend API routing issues to
+                    enhance application performance and functionality
                 <br></br>
-                    • Designed alert features for input validation and system events, improving error handling and data accuracy
+                    • Designed alert features for input validation and system events, improving error handling and data integrity
                 <br></br>
                     • Documented the codebase to support bug fixing, leveraging Git to streamline version control and collaboration
                 </p>
