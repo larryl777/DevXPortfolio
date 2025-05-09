@@ -7,7 +7,7 @@ import javascriptLogo from './logos/javascript.svg';
 import pythonLogo from './logos/python.svg'; 
 import reactLogo from './logos/react.png'; 
 import gitLogo from './logos/git.png'; 
-import expressLogo from './logos/express.png'; 
+import expressLogo from './logos/express-js.png'; 
 import mongoLogo from './logos/mongodb.svg'; 
 import nodeLogo from './logos/node.png'; 
 

@@ -10,7 +10,7 @@
     margin: 0 auto;
     font-size: 3rem;
     color: transparent;
-    background-image: linear-gradient(#2b23c1, #726a97);
+    background-image: linear-gradient(rgb(169, 251, 251), rgb(106, 185, 185));
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-clip: text;
@@ -58,7 +58,7 @@
 
 .logo-slide img {
     height: 60px;
-    margin: 0 40px;
+    margin: 0 5px;
 }
 
 @keyframes slide {
