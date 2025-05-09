@@ -31,7 +31,7 @@
     word-wrap: break-word;
     max-width: 1200px;
     margin: 3rem auto;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Courier New', Courier, monospace
     
 }
 .text3{
@@ -39,7 +39,7 @@
     position: relative;
     max-width: 1200px;
     margin: 3rem auto 5rem auto;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace
    
 }
 
