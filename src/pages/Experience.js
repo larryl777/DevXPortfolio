@@ -41,7 +41,7 @@ const Experience = () => {
                     Workup, October 2024 - January 2025
                 </div>
                 <p>
-                    • Performed comprehensive testing of 3+ web and mobile application features weekly, identifying 30+ bugs 
+                    • Performed comprehensive testing of 3+ web and mobile application features weekly
                 <br></br>
                     • Resolved 40% of identified issues, debugging React-based UI inconsistencies and backend API routing issues
                 <br></br>

@@ -139,6 +139,7 @@ body {
     justify-content: center;
     margin-top: 1rem;
     right: 3%; 
+    top: 10%;
   }
 
   .container:first-of-type {
