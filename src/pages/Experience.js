@@ -21,12 +21,11 @@ const Experience = () => {
                     UCLA DevX, February 2025 - Present
                 </div>
                 <p>
-                • Developing an interactive portfolio website with 4+ sections using JavaScript, HTML/CSS, and React.js,
-                implementing modular, reusable components and dynamic routing.
+                • Developing an interactive portfolio website with 4+ sections using JavaScript, HTML/CSS, and React.js
                 <br></br>
-                • Utilized Vercel for CI/CD deployment, optimizing performance through code splitting and minification
+                • Utilized Vercel for CI/CD deployment
                 <br></br>
-                •Integrating a backend contact system using Express.js and Nodemailer to enable real-time visitor messaging
+                •Integrating a backend contact system using Express.js and Nodemailer
                 </p>
             </div>
             <div className="tech-icons">
@@ -42,15 +41,13 @@ const Experience = () => {
                     Workup, October 2024 - January 2025
                 </div>
                 <p>
-                    • Performed comprehensive testing of 3+ web and mobile application features weekly, identifying 30+ bugs to ensure
-                    timely resolutions for feature improvements and code optimizations
+                    • Performed comprehensive testing of 3+ web and mobile application features weekly, identifying 30+ bugs 
                 <br></br>
-                    • Resolved 40% of identified issues, debugging React-based UI inconsistencies and backend API routing issues to
-                    enhance application performance and functionality
+                    • Resolved 40% of identified issues, debugging React-based UI inconsistencies and backend API routing issues
                 <br></br>
-                    • Designed alert features for input validation and system events, improving error handling and data integrity
+                    • Designed alert features for input validation and system events
                 <br></br>
-                    • Documented the codebase to support bug fixing, leveraging Git to streamline version control and collaboration
+                    • Documented the codebase to support bug fixing, using Git for version control
                 </p>
                 </div>
                 <div className="tech-icons">
