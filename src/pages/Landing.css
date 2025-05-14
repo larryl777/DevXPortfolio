@@ -101,7 +101,6 @@
   overflow-x: hidden;
   overscroll-behavior: none;
     overscroll-behavior-y: none;
-  overflow: hidden;
   } 
     .text1, .text2, .text3 {
       margin: 1.5rem auto;

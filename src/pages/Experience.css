@@ -96,7 +96,7 @@ body {
   overflow-x: hidden;
   overscroll-behavior: none;
     overscroll-behavior-y: none;
-  overflow: hidden;
+  
   } 
 
   .timeline::after {
@@ -126,6 +126,7 @@ body {
     flex-direction: row;
     justify-content: center;
     margin-top: 1rem;
+    right: 3%; 
   }
 
   .container:first-of-type {
