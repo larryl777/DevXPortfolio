@@ -100,7 +100,6 @@
   height: 100%;
   overflow-x: hidden;
   overscroll-behavior: none;
-    overscroll-behavior-y: none;
   } 
     .text1, .text2, .text3 {
       margin: 1.5rem auto;
