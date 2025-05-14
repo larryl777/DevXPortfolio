@@ -25,11 +25,10 @@
     width: .4rem;
     background-color: rgb(139, 139, 139);
     top: 0;
-    bottom: 0;
+    bottom: 5%;
     left: 50%;
     margin-left: 0;
     transform: translateX(-50%);
-    
     border-radius: .5rem;
   }
 
@@ -37,6 +36,7 @@
     padding: 10px 40px;
     position: relative;
     width: 50%;
+    
 
   }
 

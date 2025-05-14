@@ -9,7 +9,6 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <>
-      <div className="background-animation">
         <NavBar />
         <Routes> 
           <Route path="/" element={<Navigate replace to="/landing" />} />
@@ -18,7 +17,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        </div> 
+       
     </>
 
   );
