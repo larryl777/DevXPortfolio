@@ -5,6 +5,7 @@ import wkupLogo from './logos/workup.png';
 
 const Experience = () => {
     return(
+<div className = "experience">
     <div className = "timeline">
         <div className = "experiencetext1">
             <h1>
@@ -56,8 +57,8 @@ const Experience = () => {
                 <img src={wkupLogo} alt="React" className="tech-icon2" />
             </div>
         </div>
-
     </div>
+</div>
     )
 }
 
