@@ -1,3 +1,12 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh; 
+  background-color: #1d1d1d;
+}
+
 .contactbutton1{
     background-color:rgb(197, 197, 197);
     color: white;
