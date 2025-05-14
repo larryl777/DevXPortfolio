@@ -126,15 +126,16 @@ textarea::placeholder {
 }
 
  @media screen and (max-width: 768px) {
-  html, body {
+ html, body {
   margin: 0;
   padding: 0;
+  background-color: #1d1d1d;
+  min-height: 100vh;
+  width: 100%;
   overflow-x: hidden;
   overscroll-behavior: none;
-  background-color: #1d1d1d;
-  width: 100%;
   } 
-
+  
   .inputbox{
     width: 25rem;
     height: 3rem;
