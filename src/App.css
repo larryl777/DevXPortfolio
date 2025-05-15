@@ -50,11 +50,8 @@ body {
 } */
  @media screen and (max-width: 400px) {
   html, body {
-    height: 100dvh;
-    max-height: 100dvh;
     overflow-x: hidden;
     overflow-y: auto;
     background-color: #1d1d1d;
-  
   } 
  }
