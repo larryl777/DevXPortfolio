@@ -135,8 +135,9 @@ textarea::placeholder {
     margin: 1rem auto; 
   }
   .text-header{
-    width: 90%;
+    width: 100%;
     max-width: 22rem; 
+    text-align: center;
   }
 
  }
