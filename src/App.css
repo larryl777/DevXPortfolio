@@ -58,5 +58,6 @@ body {
   padding-bottom: 2vh;
   overflow-y: auto;
   overscroll-behavior: none;
+  height: 100vh;
   } 
  }
