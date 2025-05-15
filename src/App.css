@@ -57,6 +57,7 @@ body {
   width: 100%;
   padding-bottom: 2vh;
   overflow-y: auto;
-  max-height: 852px;
+  overscroll-behavior: none;
+  height: 852px;
   } 
  }
