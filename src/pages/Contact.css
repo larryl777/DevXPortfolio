@@ -137,7 +137,10 @@ textarea::placeholder {
   .text-header{
     width: 100%;
     max-width: 22rem; 
-    text-align: center;
+    padding: 0 1rem;
   }
-
+  .text-header p{
+    text-align: center;
+    margin: 1rem 0;
+  }
  }
